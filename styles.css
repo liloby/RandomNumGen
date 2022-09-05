@@ -23,6 +23,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  /* background: linear-gradient(0deg, rgb(251, 255, 0), rgb(255, 191, 82)); */
 }
 
 p {
@@ -48,10 +49,10 @@ img {
   width: 40rem;
   border: 1px solid var(--grey);
   padding: 1rem;
-  background-color: var(--blue);
+  background: linear-gradient(130deg, rgba(0, 0, 255, 0.401), rgba(255, 0, 0, 0.402));
   color: var(--white);
   text-align: center;
-  border-radius: 5px;
+  border-radius: 2rem;
 }
 
 .counter-div > * {

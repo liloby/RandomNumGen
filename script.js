@@ -1,34 +1,12 @@
-const count = document.querySelector(".count");
-const buttons = document.querySelector(".buttons");
-// const add = document.querySelector('.add')
-// const resetCount = document.querySelector('.reset')
-// const sub = document.querySelector('.subtract')
+const number = document.querySelector('.number')
+const generate = document.querySelector('.buttons')
 
-buttons.addEventListener("click", (evt) => {
-  if (evt.target.classList.contains("add")) {
-    count.innerHTML++;
-  }
+generate.addEventListener('click', GenerateNumber)
 
-  if (evt.target.classList.contains("subtract")) {
-    count.innerHTML--;
-  }
 
-  if (evt.target.classList.contains("reset")) {
-    count.innerHTML = 0;
-  }
-  count.innerHTML < 0
-    ? (count.style.color = "orangered")
-    : count.innerHTML > 0
-    ? (count.style.color = "yellow")
-    : (count.style.color = "white");
-});
+function GenerateNumber() {
+  const random = Math.floor(Math.random() * (10 + 1))
+  number.innerHTML = random
+}
 
-// add.addEventListener('click', () => {
-//     count.innerHTML++
-// })
-// sub.addEventListener('click', () => {
-//     count.innerHTML--
-// })
-// resetCount.addEventListener('click', () => {
-//     count.innerHTML = 0
-// })
+GenerateNumber()

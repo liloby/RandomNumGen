@@ -1,5 +1,3 @@
-# CounterApp
+# Random Number Generator
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/72634228/188451447-01528bdb-d1a5-4b7d-a747-a00634022faa.png">
-# RandomNumGen
-# RandomNumGen
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/72634228/188603285-5ca2dd87-64a6-4c16-97ee-cae5adf3210b.png">
